@@ -1,5 +1,6 @@
-import 'package:app_playground/home_page/controller/conter.dart';
 import 'package:flutter/material.dart';
+
+import 'controller/conter.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key, required this.title}) : super(key: key);
@@ -35,13 +36,17 @@ class _HomePageState extends State<HomePage> {
                 );
               },
             ),
-            const SizedBox(height: 18.0,),
+            const SizedBox(
+              height: 18.0,
+            ),
             ElevatedButton.icon(
               onPressed: counter.increment,
               icon: const Icon(Icons.add),
               label: const Text("Increment"),
             ),
-            const SizedBox(height: 18.0,),
+            const SizedBox(
+              height: 18.0,
+            ),
             ElevatedButton.icon(
               onPressed: counter.decrement,
               icon: const Icon(Icons.remove),
@@ -50,7 +55,6 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-
     );
   }
 }

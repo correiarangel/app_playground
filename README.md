@@ -5,14 +5,26 @@
 <br/>
 <a href="https://codecov.io/gh/correiarangel/app_playground">
     <img src="https://codecov.io/gh/correiarangel/app_playground/branch/main/graph/badge.svg?token=ymalN20Fbr"/>
-</a>
+|</a>
+    
     
 
 # app_playground
 
 Aplicativo criado com controle de estado nativo flutter.
+Implementação simples de service de test local com dation, desenvolvido pela Flutterando.
 
+## Dartion #
+
+Dartion is a RESTful mini web server based on JSON. This is not just a port of the popular json-server for Dart as it adds other features like JWT Authentication.
+Goal
+
+Get your backend up in 5 seconds! This will make it easier for those who take front-end video classes like Flutter and need a server. From here, just populate the json file and you will have a simple and ready to use database.
 Flutter ValueNotifie 
+
+- [Dartion pub.dev](https://pub.dev/packages/dartion)
+
+- [Dartion GitHub](https://github.com/Flutterando/dartion)
 
 ## Getting Started
 
