@@ -12,7 +12,7 @@
 # app_playground
 
 Aplicativo criado com controle de estado nativo flutter.
-Implementação simples de service de test local com dation, desenvolvido pela Flutterando.
+Implementação simples de service de test local com dation.
 
 ## Dartion #
 
