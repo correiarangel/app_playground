@@ -1,7 +1,7 @@
 name: app_playground
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: 'App Playground' # Remove this line if you wish to publish to pub.dev
 
 
 version: 1.0.0+1
@@ -13,12 +13,40 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   uno: ^1.0.1+3
+  flutter_flavorizr: ^2.1.2
+  
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios:
+
+  flavors:
+    dev:
+      app:
+        name: "App Playground Dev"
+      android:
+        applicationId: "com.example.dev"
+      ios:
+        bundleId: "com.example.dev"
+    hom:
+      app:
+        name: "App Playground Hom"
+      android:
+        applicationId: "com.example.hom"
+      ios:
+        bundleId: "com.example.hom"
+    prod:
+      app:
+        name: "App Playground Prod"
+      android:
+        applicationId: "com.example.prod"
+      ios:
+        bundleId: "com.example.prod"    
+
+
 
 
 dev_dependencies:
@@ -27,10 +55,6 @@ dev_dependencies:
   mocktail: ^0.2.0
   flutter_lints: ^1.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter.
 flutter:
 
   # The following line ensures that the Material Icons font is
